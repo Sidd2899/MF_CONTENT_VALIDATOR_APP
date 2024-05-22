@@ -1,6 +1,6 @@
 db_config = {
     'host': 'localhost',
-    'user': 'yourusername',
-    'password': 'yourpassword',
-    'database': 'yourdatabase'
+    'user': 'axis_mf',
+    'password': 'Axis@123',
+    'database': 'axis'
 }
