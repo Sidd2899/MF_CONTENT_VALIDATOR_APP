@@ -1,0 +1,93 @@
+   .add-new-rule-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .add-new-rule {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-new-rule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .add-new-rule-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .add-new-rule-body {
+    margin-bottom: 20px;
+  }
+  
+  .add-new-rule-field {
+    margin-bottom: 15px;
+  }
+  
+  .add-new-rule-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-new-rule-field input,
+  .add-new-rule-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-new-rule-field-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-new-rule-field-row .add-new-rule-field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .add-new-rule-field-row .add-new-rule-field:last-child {
+    margin-right: 0;
+  }
+  
+  .add-new-rule-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .add-new-rule-add,
+  .add-new-rule-cancel {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-new-rule-cancel {
+    background-color: #6c757d;
+  }
+  

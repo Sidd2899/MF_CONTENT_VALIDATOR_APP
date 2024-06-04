@@ -1,0 +1,68 @@
+.rules {
+  padding: 20px;
+}
+
+.rules-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rule-page-header{
+  font-size: 1.5rem;
+}
+
+.rules__add-new-button {
+  background-color: #1b62afcf;
+  color: white;
+  border: none;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.rules__add-new-button:hover {
+  background-color: #0056b3;
+}
+
+.rules__content-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rules__content-table th,
+.rules__content-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.rules__content-table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+}
+
+.rules__content-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.rules__content-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.rules__edit-button,
+.rules__delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rules__edit-button {
+  color: #007bff;
+}
+
+.rules__delete-button {
+  color: #dc3545;
+}

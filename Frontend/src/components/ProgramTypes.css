@@ -1,0 +1,68 @@
+.program-types {
+  padding: 20px;
+}
+
+.program-types-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.program-type-page-header{
+  font-size: 1.5rem;
+}
+
+.program-types__add-new-button {
+  background-color: #1b62afcf;
+  color: white;
+  border: none;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.program-types__add-new-button:hover {
+  background-color: #0056b3;
+}
+
+.program-types__content-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.program-types__content-table th,
+.program-types__content-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.program-types__content-table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+}
+
+.program-types__content-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.program-types__content-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.program-types__edit-button,
+.program-types__delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.program-types__edit-button {
+  color: #007bff;
+}
+
+.program-types__delete-button {
+  color: #dc3545;
+}

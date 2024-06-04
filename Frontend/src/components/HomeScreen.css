@@ -1,0 +1,73 @@
+.home-screen {
+  display: flex;
+  height: 100%;
+}
+
+.home-screen__sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  background-color: #e1edf9;
+}
+
+.home-screen__button {
+  padding: 15px;
+  margin: 5px;
+  background-color: #1b62afcf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+.home-screen__button:hover {
+  background-color: #0056b3;
+}
+
+.home-screen__content {
+  flex-grow: 1;
+  padding:20px;
+}
+
+.add-new-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.content-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.content-table th, .content-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.edit-button, .delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  color: #007bff;
+}
+
+.delete-button {
+  color: #dc3545;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 20px 0;
+}

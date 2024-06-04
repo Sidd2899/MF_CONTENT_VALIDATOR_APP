@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  background-color: #ecf2f7;
+}
+
+.header__title {
+  font-size: 23px;
+  color: #333;
+}
+
+.header__menu-icon, .header__user-icon {
+  cursor: pointer;
+}
+
+
+  
+  
+  

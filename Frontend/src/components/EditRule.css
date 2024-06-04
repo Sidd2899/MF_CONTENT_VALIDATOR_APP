@@ -1,0 +1,266 @@
+/* .edit-rule-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .edit-rule {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-rule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .edit-rule-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .edit-rule-body {
+    margin-bottom: 20px;
+  }
+  
+  .edit-rule__form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-rule__form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-rule__form-group input,
+  .edit-rule__form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-rule-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-rule-save,
+  .edit-rule-cancel {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-rule-cancel {
+    background-color: #6c757d;
+  } */
+  
+
+/* 
+
+  .edit-rule-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .edit-rule {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-rule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .edit-rule-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .edit-rule-body {
+    margin-bottom: 20px;
+  }
+  
+  .edit-rule__form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-rule__form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-rule__form-group input,
+  .edit-rule__form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-rule__form-group-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-rule-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-rule-save,
+  .edit-rule-cancel {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-rule-cancel {
+    background-color: #6c757d;
+  } */
+
+
+
+
+
+
+
+  .edit-rule-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .edit-rule {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-rule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .edit-rule-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .edit-rule-body {
+    margin-bottom: 20px;
+  }
+  
+  .edit-rule-field {
+    margin-bottom: 15px;
+  }
+  
+  .edit-rule-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-rule-field input,
+  .edit-rule-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-rule-field-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-rule-field-row .edit-rule-field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .edit-rule-field-row .edit-rule-field:last-child {
+    margin-right: 0;
+  }
+  
+  .edit-rule-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-rule-save,
+  .edit-rule-cancel {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-rule-cancel {
+    background-color: #6c757d;
+  }
+  
+  
