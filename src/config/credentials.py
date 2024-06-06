@@ -1,15 +1,16 @@
+
 db_config = {
-    'host': '**',
+    'host': '***',
     'user': '**',
-    'password': '**',
+    'password': '***',
     'database': '**'
 }
 
-endpoint = "**"
-endpoint_key="**"
+endpoint = "***"
+endpoint_key="***"
 
 api_key = "***" 
-api_version = "**"
-azure_endpoint = "**"
+api_version = "***"
+azure_endpoint = "***"
 
 
