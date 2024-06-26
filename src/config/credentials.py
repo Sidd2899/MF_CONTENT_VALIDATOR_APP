@@ -1,21 +1,14 @@
 db_config = {
-    'host': '',
-    'user': '',
-    'password': '',
-    'database': ''
+    'host': 'l',
+    'user': 'mutual_fund',
+    'password': 'mf##123',
+    'database': 'mf'
 }
 
-endpoint = ""
-endpoint_key=""
-
-api_key = "" 
-api_version = ""
-azure_endpoint = ""
-
-
 region_name=''
-aws_access_key_id= ''
+aws_access_key_id=''
 aws_secret_access_key=''
 
-
-
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+REDIRECT_URL = ""
