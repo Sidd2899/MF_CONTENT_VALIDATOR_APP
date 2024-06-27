@@ -1,14 +1,19 @@
 db_config = {
-    'host': 'l',
-    'user': 'mutual_fund',
-    'password': 'mf##123',
-    'database': 'mf'
+    'host': '',
+    'user': '',
+    'password': '',
+    'database': ''
 }
+
 
 region_name=''
 aws_access_key_id=''
 aws_secret_access_key=''
 
-GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_ID="ontent.com"
 GOOGLE_CLIENT_SECRET=""
 REDIRECT_URL = ""
+
+BUILD_PATH = "/home/ubuntu/Build/build"
+
+# BUILD_PATH = "/home/user/Downloads/build"
